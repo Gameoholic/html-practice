@@ -1,0 +1,32 @@
+.test-button {
+  background-color: rgb(133, 255, 72);
+  width: 90px;
+  height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.test-button:hover {
+  background-color: rgb(78, 162, 32);
+}
+.test-button:active {
+  background-color: rgb(53, 111, 22);
+}
+
+.google_logo{
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.google_input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 2%;
+}
