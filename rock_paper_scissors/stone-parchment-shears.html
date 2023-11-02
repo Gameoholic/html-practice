@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stone Parchment Shears</title>
+    <link rel="stylesheet" href="styles/stone-parchment-shears.css">
+    <script src="scripts/stone-parchment-shears.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1>
+        British Rock Paper Scissors:
+      </h1>
+      <h2>
+        Stone Parchment Shears
+      </h2>
+    </div>
+    <div class="selection-container">
+      <button class="selection-button" id="stone-button">
+        <img class="selection-image" src="images/stone.png" alt="Stone" onclick="onStoneClick()"/>
+      </button>
+      <button class="selection-button" id="parchment-button">
+        <img class="selection-image" src="images/parchment.png" alt="Parchment" onclick="onParchmentClick()"/>
+      </button>
+      <button class="selection-button" id="shears-button">
+        <img class="selection-image" src="images/shears.png" alt="Shears" onclick="onShearsClick()"/>
+      </button>
+    </div>
+    <div>
+      <button class="play-button" onClick="onPlayClick()">
+        Play
+      </button>
+    </div>
+  </body>
+</html>
